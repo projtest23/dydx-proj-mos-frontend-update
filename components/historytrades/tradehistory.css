@@ -1,0 +1,85 @@
+.positiondata { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-width: 400px;
+    flex-direction: row;
+    align-items: stretch;
+    color: #f7f7f7;
+    margin-top:5px;
+    border-bottom: 1px solid #2d2d3d;
+    padding-bottom: 5px;
+}
+
+.w { 
+    width: 25px;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.market { 
+    flex:1 1 0;
+    font-size: 14px;
+}
+
+.sidelong {
+    font-size: 14px;
+    color:#3fb68b;
+}
+.sideshort {
+    font-size: 14px;
+    color:#ff5353;
+}
+
+.amounttrade {
+    flex:1 1 0;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-right: 10px;
+    
+}
+.Price{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+    letter-spacing: 1px;
+}
+.Total-liquidated {
+    flex:1 1 0 ;
+    font-size: 14px;
+    text-align: right;
+    color: #f7f7f7;
+    letter-spacing: 1px;
+    margin-right: 90px;
+}
+.Total-market {
+    flex:1 1 0 ;
+    font-size: 14px;
+    text-align: right;
+    color: #f7f7f7;
+    letter-spacing: 1px;
+    margin-right: 115px;
+}
+.Fee {
+    flex:1 1 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+    letter-spacing: 1px;
+}
+.type { 
+    flex: 0 0 1;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+.liquidity{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: right;
+    color: rgb(111, 110, 132);
+    letter-spacing: 1px;
+}

@@ -1,0 +1,126 @@
+
+.poslong {
+    background: linear-gradient(227.14deg, rgba(87, 255, 195, 0.16) 1.6%, rgba(87, 255, 195, 0) 63.87%), linear-gradient(342.62deg, rgb(35, 34, 46) -9.23%, rgb(48, 48, 71) 110.36%);
+    width: 100%;
+    max-width: 740px;
+    min-width: 400px;
+    height: 68px;
+    margin-left: 16px;
+    margin-top: 8px;
+    min-height: 68px;
+    border: 0px;
+    /* margin-bottom: 12px; */
+    border-radius: 12px;
+    color: #f7f7f7;
+    margin-bottom: 12px;
+}
+.posshort {
+    background: linear-gradient(227.14deg, rgba(227, 85, 85, 0.15) 1.6%, rgba(227, 85, 85, 0) 63.87%), linear-gradient(342.62deg, rgb(35, 34, 46) -9.23%, rgb(48, 48, 71) 110.36%);
+    width: 100%;
+    max-width: 740px;
+    min-width: 400px;
+    height: 68px;
+    margin-left: 16px;
+    margin-top: 8px;
+    min-height: 68px;
+    border: 0px;
+    /* margin-bottom: 12px; */
+    border-radius: 12px;
+    color: #f7f7f7;
+    margin-bottom: 12px;
+}
+.positiondata { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 710px;
+    min-width: 400px;
+    flex-direction: row;
+    margin-left: 12px;
+    align-items: stretch;
+    color: #f7f7f7;
+    padding-top:10px;
+}
+
+.logo {
+    padding-top: 7px;
+    padding-right: 3px;
+}
+
+.market { 
+    flex:1 1 0;
+    font-size: 14px;
+}
+.size { 
+    flex:1 1 0;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 68px;
+    letter-spacing: 1px;
+}
+
+.Unrealizedshort { 
+    flex:1 1 0;
+    font-size: 14px;
+    padding-right: 120px;
+    text-align: right;
+    color: #ff5353;
+    letter-spacing: 1px;
+}
+
+.Unrealizedlong { 
+    flex:1 1 0;
+    font-size: 14px;
+    padding-right: 120px;
+    text-align: right;
+    color: #3fb68b;
+    letter-spacing: 1px;
+}
+
+.Liq { 
+    flex: 0 0 1;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: 1px;
+    
+}
+
+.sidelong {
+    font-size: 14px;
+    padding-top: 3px;
+    color:#3fb68b;
+}
+.sideshort {
+    font-size: 14px;
+    padding-top: 3px;
+    color:#ff5353;
+}
+
+.leverage{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+    padding-top: 10px;
+    letter-spacing: 1px;
+}
+.Realizedlong {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);;
+    padding-top: 3px;
+    letter-spacing: 1px;
+}
+.Realizedshort {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);;
+    padding-top: 3px;
+    letter-spacing: 1px;
+}
+.Oracle{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(111, 110, 132);
+    padding-top: 3px;
+    letter-spacing: 1px;
+}
