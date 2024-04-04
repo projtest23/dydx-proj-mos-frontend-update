@@ -37,7 +37,7 @@ const humanize = require('humanize-number')
               jwt = 'Bearer '+ access
           }
           try{
-            const response = await fetch("http://localhost:8000/dydx/api/v1/historytransfers/",{
+            const response = await fetch("http://45.195.250.168/dydx/api/v1/historytransfers/",{
               cache:'no-store',
               headers:{
                   'Authorization': jwt,
