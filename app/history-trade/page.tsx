@@ -59,13 +59,10 @@ export default function Home() {
               </path></svg>
         </div>
         <div className='transfer-deposit-button'>
-          <div className='transfer-deposit-button-content'>
-        <svg className='transfer-deposit-button-content-svg' width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7.96222 1L7.96225 9M7.96225 9L4.21417 5.55905M7.96225 9L11.7103 5.55905" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"></path><path d="M14 11V14H2V11" stroke="currentColor" stroke-width="1.15" stroke-linecap="round"></path></svg>
-        
-        <div className='transfer-deposit-button-content-text'>Export</div>
+          Close
         </div>
         </div>
        </div>
-    </div>
+    
   )
 }
