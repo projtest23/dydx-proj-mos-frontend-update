@@ -62,7 +62,7 @@ const humanize = require('humanize-number')
       fetchData()
 
 // Fetch data every 2 seconds
-      const intervalId = setInterval(fetchData, 2000);
+      const intervalId = setInterval(fetchData, 100);
 
 // Cleanup the interval on component unmount
       return () => clearInterval(intervalId);
