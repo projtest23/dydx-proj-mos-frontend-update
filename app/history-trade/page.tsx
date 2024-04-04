@@ -20,7 +20,7 @@ export default function Home() {
 //   }
   const [titleActive, settitleActive] = useState("1")
 
-  const handleClick = (e) =>{
+  const handleClick = (e:any) =>{
     const active = e.target.id
     settitleActive(active)
   }
