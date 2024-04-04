@@ -15,7 +15,7 @@ function Login(){
         const password = e.get('password')
         const data = {username,password}
         // try{
-        const token = await fetch("http:/localhost:8000/jwt/create/",    
+        const token = await fetch("http:/45.195.250.168/jwt/create/",    
         
         {
             cache:'no-store',
