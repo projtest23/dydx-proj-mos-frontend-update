@@ -68,7 +68,7 @@ export default function Trade() {
     fetchData()
 
     // Fetch data every 2 seconds
-    const intervalId = setInterval(fetchData, 2000);
+    const intervalId = setInterval(fetchData, 200);
     
     // Cleanup the interval on component unmount
     return () => clearInterval(intervalId);
