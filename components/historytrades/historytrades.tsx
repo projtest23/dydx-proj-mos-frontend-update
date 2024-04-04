@@ -40,7 +40,7 @@ const humanize = require('humanize-number')
               jwt = 'Bearer '+ access
           }
           try{
-            const url = "http://localhost:8000/dydx/api/v1/historytrades/"
+            const url = "http://45.195.250.168/dydx/api/v1/historytrades/"
             const response = await fetch(url,{
               cache:'no-store',
               headers:{
