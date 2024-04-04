@@ -1,0 +1,44 @@
+
+.footer {
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #2d2d3d;
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+}
+.hamberger{
+    border-right: 1px solid #2d2d3d;
+    margin-left: 25px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-top:10px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.zanguleh{
+    border-right: 1px solid #2d2d3d;
+    margin-left: 23px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-top:10px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.transfer-deposit-button {
+    background: #303044;
+    margin-top: 12px;
+    width:100% ;
+    margin-bottom: 20px;
+    border: 0px;
+    margin-left: 12px;
+    border-radius: 8px;
+    color: #c3c2d4;
+    margin-bottom: 12px;
+    margin-right: 12px;
+    padding-top: 8px;
+    font-size: 18px;
+    cursor: pointer;
+}

@@ -1,0 +1,361 @@
+
+.account {
+    background-color: #1c1c28;
+    display: flex;
+    flex-direction: column;
+    width: 311px;
+    height: 110px;
+    color:#c3c2d4;
+    margin-top: 150px;
+    margin-left: 10px;
+}
+
+.data {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.accountnumber {
+    margin-left: auto;
+    padding-right: 20px;
+
+}
+
+.text {
+    padding-left: 10px;
+
+}
+
+.iframe {
+    width: 100%; 
+    height: 100%;
+    position: absolute; 
+    top: 0px;
+    z-Index:-1;
+}
+
+.position-long {
+    background: linear-gradient(130.25deg,rgba(63,182,139,.16) .9%,rgba(63,182,139,0) 64.47%),linear-gradient(342.62deg,#23222e -9.23%,#303047 110.36%);
+    width: 390px;
+    height: 78px;
+    margin-left: 350px;
+    margin-top: 357px;
+    color: #c3c2d4;
+    border-radius: 12px;
+    color: #f7f7f7;
+    display: flex;
+    z-index: -1;
+
+}
+
+.position-short {
+    background: linear-gradient(130.25deg,rgba(255,83,83,.16) .9%,rgba(255,83,83,0) 64.47%),linear-gradient(342.62deg,#23222e -9.23%,#303047 110.36%);
+    width: 390px;
+    height: 78px;
+    margin-left: 350px;
+    margin-top: 357px;
+    color: #c3c2d4;
+    border-radius: 12px;
+    color: #f7f7f7;
+    display: flex;
+    z-index: -1;
+
+}
+
+.positiondata {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    
+}
+
+.long-long {
+    background: rgba(63,182,139,.1);
+    color: #3fb68b;
+    width: 45px;
+    height:23px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 15px;
+}
+.long-short {
+    background: rgba(255,83,83,.1);
+    color: #ff5353;
+    width: 45px;
+    height:23px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.longp {
+    text-align: center;
+    padding-left: 7px;
+    padding-bottom: 2px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.equity {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top:16px;
+    margin-right:16px ;
+}
+
+.equitycurr {
+    display: flex;
+}
+
+.number {
+    font-size: 17px;
+    font-weight: 500;
+    padding-right: 5px;
+    padding-top: 0px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    background-color: #454258;
+    width: 30px;
+    height: 18px;
+    border-radius: 2px;
+    font-size: 11px;
+    color: #c3c2d4;
+    margin-top: 4px;
+}
+
+.name-text {
+    padding-left: 5px;
+}
+
+
+.numberdollar {
+    display: flex;
+    text-align: right;
+    color:#6f6e84;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.numberdollarspan {
+    margin-left: auto;
+}
+
+
+.average {
+    background-color: #1c1c28;
+    width: 355px;
+    height: 100px;
+    display: flex;
+    color: #6f6e84;
+    flex-direction: column;
+    margin-left: 770px;
+    margin-top: -70px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.open {
+    display: flex;
+    border-bottom: 1px solid #2d2d3d;
+    border-spacing: 10px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    
+}
+
+.opennumber {
+    margin-left: auto;
+    color: #c3c2d4 ;
+    padding-right: 10px;
+}
+
+.close {
+    display: flex;
+    border-bottom: 1px solid #2d2d3d;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.closenumber {
+    margin-left: auto;
+    color: #c3c2d4 ;
+    padding-right: 10px;
+}
+
+.funding {
+    display: flex;
+    border-bottom: 1px solid #2d2d3d;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-top: 7px;
+    margin-bottom: 15px;
+}
+
+.fundingnumbershort {
+    margin-left: auto;
+    color: #ff5353 ;
+    padding-right: 10px; 
+}
+
+.fundingnumberlong {
+    margin-left: auto;
+    color: #3fb68b ;
+    padding-right: 10px; 
+}
+
+.leverage-section {
+    background-color: #1c1c28;
+    width: 385px;
+    height: 118px;
+    display: flex;
+    color: #6f6e84;
+    flex-direction: column;
+    margin-left: 352px;
+    margin-top: -10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.leverage-liq {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+}
+
+.Liquidation-Price{
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.Liquidation-Price-number{
+    text-align: right;
+    color:#c3c2d4;
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.unrealized-realized {
+    display: flex;
+    flex-direction: row;
+}
+
+.realized {
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.realized-numbershort {
+    text-align: right;
+    padding-top: 8px;
+    color: #ff5353;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.realized-numberlong {
+    text-align: right;
+    padding-top: 8px;
+    color: #3fb68b;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.unrealized-numbershort {
+    color:#c3c2d4;
+    padding-top: 8px;
+    color: #ff5353;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.unrealized-numberlong {
+    color:#c3c2d4;
+    padding-top: 8px;
+    color: #3fb68b;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.leverage-number {
+    color:#c3c2d4;
+    padding-top: 8px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.wallet {
+    background-color: #1c1c28;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 166px;
+    height: 25px;
+    color:#6f6e84;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.wallet-logo-uni {
+    padding-left: 3px;
+}
+
+.wallet-logo-inch {
+    padding-left: 3px;
+    padding-top: 4px;
+}
+
+.wallet-address {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 16px;
+    padding-left: 12px;
+    padding-top: 7px;
+    letter-spacing: 1.3px;
+}
+
+
+.seventy {
+    background-color: #1c1c28;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    width: 15px;
+    color:#6f6e84;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: -195px;
+    margin-left: 123px;
+}
+
+
+.seventy-withoutposition {
+    background-color: #1c1c28;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    width: 15px;
+    color:#6f6e84;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 239px;
+    margin-left: 123px;
+}
