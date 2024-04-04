@@ -77,11 +77,9 @@
     cursor: pointer;
 }
 .transfer-deposit-button {
-    display: flex;
-    align-items: center;
     background: #303044;
-    width: 100%;
     margin-top: 12px;
+    width:100% ;
     margin-bottom: 20px;
     border: 0px;
     margin-left: 12px;
@@ -89,19 +87,7 @@
     color: #c3c2d4;
     margin-bottom: 12px;
     margin-right: 12px;
-    
+    padding-top: 8px;
     font-size: 18px;
     cursor: pointer;
-}
-.transfer-deposit-button-content {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: auto; 
-}
-.transfer-deposit-button-content-svg {
-    margin-right:5px
-}
-.transfer-deposit-button-content-text {
-    color: #c3c2d4;
 }
