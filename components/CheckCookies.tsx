@@ -20,7 +20,7 @@ function CheckLogin(){
         
         // const value: Auth = JSON.parse(auth?.value)
         const data = {token:access}
-        const verify = await fetch("http://localhost:8000/jwt/verify/",
+        const verify = await fetch("http://45.195.250.168/jwt/verify/",
             {
                 cache:'no-store',
                 method:"POST",
